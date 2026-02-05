@@ -26,7 +26,7 @@ Tested on HPC cluster with the following LLMs:
  - google/gemma-3-27b-it 
  - 01-ai/Yi-34B-Chat
 
-##  Implement
+##  Implementation
 
 ```bash
 # Step 1: Generate survival predictions and SHAP values 

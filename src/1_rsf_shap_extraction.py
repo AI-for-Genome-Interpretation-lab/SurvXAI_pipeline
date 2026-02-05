@@ -18,9 +18,9 @@ def main():
     y_event = pd.Series(y_event, index=X.index)
 
     # --------Selecting the first 100 samples to test--------------
-    X = X[:100]
-    y_time = y_time[:100]
-    y_event = y_event[:100]
+    # X = X[:100]
+    # y_time = y_time[:100]
+    # y_event = y_event[:100]
 
     #----------Generation for predictions and SHAP values----------
     model = RandomSurvivalForest(n_estimators=100, min_samples_split=15)
